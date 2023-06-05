@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000' inline='true' name='federated.1t6x2cy0m0bguc18qseh31yty7ys' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000' name='textscan.13pg1cb0om8j2s17wximl10etjci'>
+            <connection class='textscan' directory='C:/Users/Ajay/Desktop/Tableau' filename='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13pg1cb0om8j2s17wximl10etjci' name='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' table='[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area Type' ordinal='0' />
+            <column datatype='string' name='Area' ordinal='1' />
+            <column datatype='integer' name='NAICS' ordinal='2' />
+            <column datatype='string' name='NAICS Title' ordinal='3' />
+            <column datatype='integer' name='Year' ordinal='4' />
+            <column datatype='integer' name='Establishments' ordinal='5' />
+            <column datatype='integer' name='Average Employment' ordinal='6' />
+            <column datatype='real' name='Total Wage' ordinal='7' />
+            <column datatype='real' name='Annual Average Salary                                                                                                          ' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.13pg1cb0om8j2s17wximl10etjci' name='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' table='[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Area Type' ordinal='0' />
+            <column datatype='string' name='Area' ordinal='1' />
+            <column datatype='integer' name='NAICS' ordinal='2' />
+            <column datatype='string' name='NAICS Title' ordinal='3' />
+            <column datatype='integer' name='Year' ordinal='4' />
+            <column datatype='integer' name='Establishments' ordinal='5' />
+            <column datatype='integer' name='Average Employment' ordinal='6' />
+            <column datatype='real' name='Total Wage' ordinal='7' />
+            <column datatype='real' name='Annual Average Salary                                                                                                          ' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area Type]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Area Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAICS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NAICS]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>NAICS</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAICS Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAICS Title]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>NAICS Title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Establishments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Establishments]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Establishments</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Employment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Average Employment]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Average Employment</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Wage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Wage]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Total Wage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Average Salary                                                                                                          </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Annual Average Salary                                                                                                          ]</local-name>
+            <parent-name>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv]</parent-name>
+            <remote-alias>Annual Average Salary                                                                                                          </remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Annual Average Salary' datatype='real' name='[Annual Average Salary                                                                                                          ]' role='measure' type='quantitative' />
+      <column caption='Naics' datatype='integer' name='[NAICS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' datatype='table' name='[__tableau_internal_object_id__].[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' id='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv_673B8A73FB51498B9A53D5DC8E5B6E98'>
+            <properties context=''>
+              <relation connection='textscan.13pg1cb0om8j2s17wximl10etjci' name='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000.csv' table='[P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Area Type' ordinal='0' />
+                  <column datatype='string' name='Area' ordinal='1' />
+                  <column datatype='integer' name='NAICS' ordinal='2' />
+                  <column datatype='string' name='NAICS Title' ordinal='3' />
+                  <column datatype='integer' name='Year' ordinal='4' />
+                  <column datatype='integer' name='Establishments' ordinal='5' />
+                  <column datatype='integer' name='Average Employment' ordinal='6' />
+                  <column datatype='real' name='Total Wage' ordinal='7' />
+                  <column datatype='real' name='Annual Average Salary                                                                                                          ' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Step Line Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='P1-quarterly-census-of-employment-and-wages-annual-data-beginning-2000' name='federated.1t6x2cy0m0bguc18qseh31yty7ys' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t6x2cy0m0bguc18qseh31yty7ys'>
+            <column caption='Annual Average Salary' datatype='real' name='[Annual Average Salary                                                                                                          ]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Annual Average Salary                                                                                                          ]' derivation='Avg' name='[avg:Annual Average Salary                                                                                                          :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='step' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1t6x2cy0m0bguc18qseh31yty7ys].[avg:Annual Average Salary                                                                                                          :qk]</rows>
+        <cols>[federated.1t6x2cy0m0bguc18qseh31yty7ys].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{E9118354-8945-43A3-8A5E-6F2415B23D93}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Step Line Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t6x2cy0m0bguc18qseh31yty7ys].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{382E7251-8CD8-46A5-A8D9-36EB933916E3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Step Line Chart' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
