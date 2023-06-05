@@ -45,6 +45,6 @@ By completing this course, I gained proficiency in a variety of Tableau skills, 
 - Assigning geographical roles to data elements for powerful geographic visualizations and analysis.
 - Leveraging advanced data preparation techniques to stay up-to-date with the latest features and updates in Tableau.
 
-Upon completing the course, I received a completion certificate as recognition of your accomplishment. You can access your certificate by visiting the following link: [Completion Certificate](https://www.udemy.com/certificate/UC-44a08dc0-7dcd-4cd9-a394-59288a162443/).
+Upon completing the course, I received a completion certificate as recognition of my accomplishment. You can access my certificate by visiting the following link: [Completion Certificate](https://www.udemy.com/certificate/UC-44a08dc0-7dcd-4cd9-a394-59288a162443/).
 
 📚 Enroll now in "Tableau 2022 A-Z: Hands-On Tableau Training For Data Science!" and embark on a transformative journey to become a proficient Tableau user, equipped with the skills necessary for successful data visualization and analysis in the field of data science. 🚀🔍💻
